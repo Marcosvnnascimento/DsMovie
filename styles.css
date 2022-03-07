@@ -4,6 +4,8 @@
     --bg-gray: #0d1017;
     --bg-green: #6abf45;
     --bg-spacegray: #161b21;
+    --text : #000;
+    --white-text: #fff;
 }
 
 * {
@@ -46,4 +48,39 @@ h1 ,h2, h3, h4, h5 ,h6 {
     }
     .dsmovie-contact-container img {
         margin-right: 10px;
+    }
+    #dsmovie-card-list {
+        padding: 40px 0;
+    }
+    .dsmovie-card {
+        width: 360px;
+    }
+    .dsmovie-card img {
+        width: 100%;
+        border-radius: 10px 8px 0 0;
+    }
+    .dsmovie-card-description {
+        padding: 10px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 0 0 8px 8px;
+    }
+    .dsmovie-card-description h3 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 25px;
+       
+    }
+    .dsmovie-btn, .dsmovie-btn:hover {
+        width: 180px;
+        height: 40px;
+        background-color: var(--bg-green);
+        color: var(--white-text);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;      
     }
